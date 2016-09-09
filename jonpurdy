@@ -8,6 +8,8 @@
 server {
        listen         80;
        server_name    jonpurdy.com;
+		      jonpurdy.ca;
+		      jonpurdy.net;
        return         301 https://$server_name$request_uri;
 }
 # can't use $scheme:// above due to redirect loop error
